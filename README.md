@@ -23,12 +23,6 @@ A rundown of a low cost solution for arduino light/motor control and optional lo
  - mylar sheeting
  - high powered LED (currently ~200$ as of 11/2016)
  
- 
- Future Needs
- - proper instructable style tutorial
- - working test model
- - research into correct nutrient content and sourcing, as well as blends for open source style publishing with instructions on a per plant basis in a centralized location. 
- - a very good home built aeroponic fogger with simple instructions and minimal specialty items
- - once system is functional, accurate measurement of power usage for greenhouse power requirement calcualtion for standalone building (solar, wind, battery system)
- - thermal properties of building need to be conducive to growth, using minimal power/gases (ideally biogas from multiple sources)
- 
+ - Added "Worm Shower" to eliminate the need for constant addition on nutrients to hydroponic solution.
+ - essentially runs a pump from the hydroponic reservoir to the top of the worm bin, approx 1.5 Gal every 3 days,
+ at which point it will wait for 20 minutes to go through the worm bins and 150 micron SS mesh filter, and gravity feed into a bucket, where another pump will go back into the hydroponic reservoir with worm tea. 
