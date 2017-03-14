@@ -26,3 +26,11 @@ A rundown of a low cost solution for arduino light/motor control and optional lo
  - Added "Worm Shower" to eliminate the need for constant addition on nutrients to hydroponic solution.
  - essentially runs a pump from the hydroponic reservoir to the top of the worm bin, approx 1.5 Gal every 3 days,
  at which point it will wait for 20 minutes to go through the worm bins and 150 micron SS mesh filter, and gravity feed into a bucket, where another pump will go back into the hydroponic reservoir with worm tea. 
+ 03/17
+ - edited crontab to schedule python script
+ - flashed board with nanpy
+ - wrote python script to control whole system sequentially, and generate log files each day, important to keep number of log files in folder equal to number of days
+ - need to add tutorial for flashing with nanpy, setting up crontab, and creating log folder in standard location in target master computer
+ - still need to add wiring diagrams
+ - need to add analog sensor readings, and print them to logs for light sensor
+ - need to add DHT11 readout for temperature and humidity
