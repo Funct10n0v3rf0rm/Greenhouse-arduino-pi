@@ -22,10 +22,10 @@ file_count = number_files + 1
 print file_count
 day_counter = 0
 now = time.strftime("%c")
-time_increment = number_files*300
-time_decrement = (number_files - 45)*300
-light_timer = 36000
-light_timer2 = 50400
+time_increment = number_files*3
+time_decrement = (number_files - 45)*3
+light_timer = 15
+light_timer2 = 30
 # 14400 = 4 hours 
 # 300 = 5 minutes
 # 25200 = 7 hours
@@ -71,17 +71,17 @@ if number_files <= 45:
 		a.digitalWrite(4,a.LOW)
 		f.write("Digital Pump Output 4 is closed, hydro pump should run for one minute\n")
 		print ("Digital Pump Output 4 is closed, hydro pump should run for one minute\n")
-		time.sleep(60) # pump runtime = 60 seconds
+		time.sleep(6) # pump runtime = 60 seconds
 		a.digitalWrite(4,a.HIGH)
 		f.write("Digital Pump Output 4 is open, hydro pump should be off\n")
 		print ("Digital Pump Output 4 is open, hydro pump should be off\n")
 		f.write("Delaying 20 minutes for water to fill reservoir\n")
 		print ("Delaying 20 minutes for water to fill reservoir\n")
-		time.sleep(1200) # pump breaktime = 20 minutes (1200)
+		time.sleep(2) # pump breaktime = 20 minutes (1200)
 		a.digitalWrite(5,a.LOW)
 		f.write("Digital Pump Output 5 is closed, reservoir pump should be on\n")
 		print ("Digital Pump Output 5 is closed, reservoir pump should be on\n")
-		time.sleep(60) # pump runtime = 60 seconds
+		time.sleep(6) # pump runtime = 60 seconds
 		a.digitalWrite(5,a.HIGH)
 		f.write("Digital Pump Output 5 is open, reservoir pump should be off\n")
 		print ("Digital Pump Output 5 is open, reservoir pump should be off\n")
